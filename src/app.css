@@ -1,0 +1,18 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("https://fonts.cdnfonts.com/css/sf-pro-display");
+}
+
+@theme {
+  --font-sf-pro: "SF Pro Display", sans-serif;
+  --clr-white: "#FFFFFF";
+  --clr-gray-200: "#DED2B9";
+  --clr-gray-500: "#86868B";
+  --clr-gray-800: #1D1D1F;
+  --clr-black: "#000000";
+}
