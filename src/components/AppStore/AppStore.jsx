@@ -24,7 +24,7 @@ import {newsGrid} from './data';
 import Footer from '../Footer';
 const AppStore = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <section className="pb-[100px]">
         <img src={appStoreHero} alt="appstore-hero" />
         <div className="flex flex-col items-center px-[10px]">

@@ -22,7 +22,7 @@ const Home = () => {
      autoplaySpeed: 3000,
    };
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <div
         className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737770720/apple/home/cbl3mpn1snnmzdcd8rap.png')]
       bg-cover w-[100vw] h-[600px] bg-no-repeat bg-bottom

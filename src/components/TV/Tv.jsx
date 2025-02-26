@@ -15,7 +15,7 @@ import giveWowIcon from '../../images/give-wow-icon.svg';
 import Footer from '../Footer';
 const Tv = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <div className="lg:px-[90px]">
         <section className="grid grid-cols-12 grid-rows-12 mx-auto place-items-center p-[20px] lg:px-[100px] gap-[10px]">
           {tvHeroGrid.map(({ id, img }) => {

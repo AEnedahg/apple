@@ -18,7 +18,7 @@ import {specialStores} from './data';
 import Footer from '../Footer';
 const Store = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <div className="lg:px-[100px] lg:pb-[70px]">
         <section className="lg:mt-[77px] w-full h-auto">
           <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">

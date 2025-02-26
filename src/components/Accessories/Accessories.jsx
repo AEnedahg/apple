@@ -12,7 +12,7 @@ import { airTags } from './data';
 import { sound } from './data';
 const Accessories = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <div>
         <section className="flex flex-col lg:flex-row gap-x-[50px] bg-[#F5F5F7] lg:px-[90px] gap-y-[50px]">
           <div className="mt-[100px]">

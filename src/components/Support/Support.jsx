@@ -12,7 +12,7 @@ import mySupport from '../../images/mySupport.png';
 import giftCards from '../../images/gitfCard.png';
 const Support = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden *:overflow-x-hidden">
       <div>
         <section
           className="bg-cover bg-center h-[540px] relative"

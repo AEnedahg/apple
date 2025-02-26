@@ -42,7 +42,7 @@ import researchApp from '../../images/research-app.png';
 import Footer from '../Footer';
 const Iphone = () => {
   return (
-    <div className="lg:pb-[70px]">
+    <div className="lg:pb-[70px] overflow-x-hidden *:overflow-x-hidden">
       <section className="grid grid-cols-12 grid-rows-12 mx-auto place-items-center p-[20px] lg:px-[100px]">
         {phoneGrid.map(({ id, img }) => {
           return (
